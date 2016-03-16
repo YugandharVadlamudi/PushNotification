@@ -84,7 +84,12 @@ public class GridAdapter extends BaseAdapter {
                                                     @Override
                                                     public void onClick(View v) {
                                                         if (holderClass.checkBox.isChecked())
+                                                        {
                                                             itemChecked[position] = true;
+
+                                                        }
+
+
                                                         else
                                                             itemChecked[position] = false;
                                                     }
