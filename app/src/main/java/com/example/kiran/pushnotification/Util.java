@@ -7,7 +7,6 @@ import java.util.ArrayList;
  */
 public class Util {
     public static String[] name = {"one", "two", "three", "four", "five", "six","seven","eight","Nine","ten","Eleven"};
-
     public static ArrayList<NameModel> getNames(){
         ArrayList<NameModel> arrNames = new ArrayList<NameModel>();
         for(int i=0; i<20; i++){

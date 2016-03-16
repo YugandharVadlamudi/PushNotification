@@ -20,12 +20,7 @@ public class RecycleViewActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycleview);
         recycleViewInitilization();
-        layoutMangerInitilization();
     }
-
-    private void layoutMangerInitilization() {
-    }
-
     private void recycleViewInitilization() {
         recyclerView = (RecyclerView) findViewById(R.id.recycleView);
         /*
